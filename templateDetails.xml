@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 2.5//DTD template 1.0//EN" "http://www.joomla.org/xml/dtd/2.5/template-install.dtd">
+<extension version="3.6.5" type="template" method="upgrade" client="site">
+	<name>lemoncyclone</name>
+	<creationDate>2017-03-19</creationDate>
+	<author>xdya</author>
+	<authorEmail>icecoolcube@gmail.com</authorEmail>
+	<copyright>lemoncyclone 2017</copyright>
+	<license>GNU/GPL</license>
+	<version>1.0</version>
+	<description>A basic bootstrap template. Components: responsive mod_gmsmenu, sidebars, language switcher, carousel, 3 boxes, footer.</description>
+	<files>
+		<filename>index.php</filename>
+		<filename>templateDetails.xml</filename>
+		<filename>index.html</filename>
+		<folder>images</folder>
+		<folder>css</folder>
+		<folder>fonts</folder>
+		<folder>js</folder>	
+		<folder>html</folder>	
+		<folder>php</folder>		
+	</files>
+	<positions>
+		<position>debug</position>
+		<position>breadcrumb</position>
+		<position>left</position>
+		<position>right</position>
+		<position>top</position>
+		<position>nav</position>
+		<position>box1</position>
+		<position>box2</position>
+		<position>box3</position>
+		<position>lang</position>
+		<position>content</position>
+		<position>carousel</position>
+		<position>pos0</position>
+		<position>pos1</position>
+		<position>pos2</position>
+		<position>pos3</position>
+		<position>pos4</position>
+		<position>footer</position>
+	</positions>
+	<config>
+	<fields name="params">
+
+	</fields>
+	</config>
+</extension>
